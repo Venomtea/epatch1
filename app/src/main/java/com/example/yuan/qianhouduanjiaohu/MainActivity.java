@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loginbtn= (Button) findViewById(R.id.login);
+        //CHANGES
         //register= (Button) findViewById(R.id.register);
         //applybtn= (Button) findViewById(R.id.apply);
         /*上传本机位置信息*/
