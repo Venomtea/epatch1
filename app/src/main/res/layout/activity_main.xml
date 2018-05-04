@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuan.qianhouduanjiaohu.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_x="20dp"
+        android:layout_y="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User:"/>
+    <!--tools:layout_editor_absoluteX="46dp"
+    tools:layout_editor_absoluteY="81dp" />-->
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_x="80dp"
+        android:layout_y="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200px"
+        android:inputType="textPersonName"/>
+    <!--android:ems="10"-->
+        <!--tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="59dp" />-->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_x="20dp"
+        android:layout_y="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"/>
+    <!--tools:layout_editor_absoluteX="46dp"
+    tools:layout_editor_absoluteY="152dp" -->
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_x="80dp"
+        android:layout_y="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200px"
+        android:inputType="textPassword"/>
+        <!--tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="139dp" />-->
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_x="130dp"
+        android:layout_y="135dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+        <!--tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="219dp"-->
+
+
+</AbsoluteLayout>
